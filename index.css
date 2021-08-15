@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* body {
+  background: linear-gradient(
+    to bottom,
+    rgba(106, 200, 243, 0.75),
+    rgba(253, 40, 93, 0.75)
+  );
+} */
+
+main {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 500px;
+  background-color: yellow;
+  height: 100vh;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+.label {
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 2.8rem;
+  padding-top: 1.75rem;
+  color: brown;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+  width: 75%;
+  margin: 0 auto;
+  font-weight: 100;
+}
+
+.label {
+  font-size: 1.4rem;
+}
+
+#check {
+  font-size: 1rem;
+  display: block;
+  margin: 1rem auto;
+  padding: 0.7em 1.2em;
+  border-radius: 1rem;
+  width: 40%;
+  border: 2px solid black;
+}
+
+#check:active {
+  transform: translateY(5px);
+  box-shadow: none;
+}
+
+#birthday {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  border: 2px solid black;
+  border-radius: 1rem;
+  width: 40%;
+}
+
+#output {
+  font-size: 1.5rem;
+  width: 75%;
+  margin: 0 auto;
+}
