@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Palindromic Birthdate</title>
-    <link rel="stylesheet" href="./index.css" />
-    <script defer src="./index.js"></script>
-  </head>
-  <body>
-    <main>
-      <h1>Do you have a palindromic birthdate?</h1>
-      <h2>Let's Find Out</h2>
-      <h3>
-        Palindrome: A word or number that reads the same forwards and
-        backwards.
-      </h3>
-      <div class="label">Enter your birth date</div>
-      <input type="date" name="birthday" id="birthday" />
-      <button id="check">Check</button>
-      <div id="output">Let's check</div>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>mark13</title>
+</head>
+
+<body>
+    <main class="main-content">
+        <div class="image-div">
+            <img src="/birthday.svg" alt="">
+        </div>
+        <div class="main-content form-div">
+        <h1 class="main-text">Is Your Birthday Palindrome?</h1>
+        <form>
+            <input type="date" class="birthday-date"> <br>
+            <button type="button" class="check-btn">Check Result</button>
+        </form>
+    </div>
+        <div class="main-content output-text"></div>
     </main>
-  </body>
+    <script src="index.js"></script>
+</body>
+
 </html>
