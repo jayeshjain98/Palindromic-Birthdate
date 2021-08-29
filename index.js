@@ -201,7 +201,7 @@ function clickHandler(e) {
       output.innerText = "Wow! Your Birthday is a Palindrome";
     } else {
       var [counter, palindromeDate] = getNearestPalindrome(date);
-      output.innerText = `Aww! Not a palindrome. Nearest Palindrome date is ${palindromeDate.day}-${palindromeDate.month}-${palindromeDate.year}. You missed by ${counter} days.`;
+      output.innerText = `Aww! Not a palindrome. Nearest Palindrome date is ${palindromeDate.day}-${palindromeDate.month}-${palindromeDate.year}. You missed by ${counter} ${(counter==1) ? "day" : "days"}.`;
     }
   } else {
     output.innerText = "Please enter a date";
